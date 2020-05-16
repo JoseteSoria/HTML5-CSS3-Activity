@@ -1,0 +1,115 @@
+*{
+  margin-top: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background:#D3D3D3;
+}
+br { display: none; }
+.design::before{
+  content: "> ";
+  font-size: 10px;
+}
+hr {
+  border-top: 1px dotted;
+}
+.subrayar{
+  text-decoration:underline;
+  text-decoration-style: dotted;
+}
+li {
+    list-style-type: none;
+      color: DeepPink;
+}
+li::before{
+  content: "> ";
+  font-size: 10px;
+    color: DeepPink;
+}
+ul{
+  list-style-position: inside;
+}
+.encabezado{
+  background: white;
+  border-bottom: 1px solid #5D6063;
+  height: 150px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  padding-top: 40px;
+  padding-left: 0px;
+  border-radius: 10px;
+  background-image: url("cielo.jpg");
+
+}
+.texto{
+  float: left;
+  text-align: center;
+  margin-left: 0px;
+  width: 500px;
+}
+.texto >h1{
+  margin-bottom: 5px;
+  font-size: 35px;
+  font-family: 'Verdana', sans-serif;
+}
+.texto > p{
+  margin-bottom: 5px;
+  color: #696969;
+}
+.contenedor{
+  width:1200px;
+  margin: auto;
+}
+h2{
+  background: #C0C0C0;
+}
+.izquierda{
+  width:300px;
+  float:left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.izq1, .izq2{
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.design{
+  margin-bottom: 3px;
+  font-weight: bold;
+  color: DeepPink;
+}
+.izq2 > p{
+  color: DeepPink;
+}
+a:link{
+  color: DeepPink;
+  text-decoration: none;
+}
+.derecha{
+  width: 800px;
+  float:left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.dch1, .dch2{
+  background: white;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  overflow: hidden;
+}
+.dch1 >h2, .dch2>h2, .dch1 >p, .dch2>p{
+  width: 600px;
+}
+
+.dch1 > h2{
+  float: right;
+  padding-left: 0px;
+}
+.dch1 > p{
+  clear: right;
+  float: right;
+}
